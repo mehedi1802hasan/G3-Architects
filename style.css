@@ -199,16 +199,22 @@ height:935px;
   display: flex;
   justify-content: space-around;
  margin-top:100px;
+ 
+}
 
- }
 .reward-item{
  width: 200px;
  height: 180px;
  border: 1px solid #FF900E;
  border-radius: 8px;
 text-align: center;
+transition:width 2s , height 4s;
      }
-
+.reward-item:hover{
+width: 250px;
+ height: 200px;
+transform:scale(1) rotate(30deg);
+    }
 .item{
  margin-top:35px;
  align-items: center;
@@ -252,6 +258,47 @@ gap:90px;
 .sponser-name img{
     width: 153.33px;
 height: 50px;
+}
+
+
+/*------------------ 
+out of project section style
+*/
+.contact-section{
+    margin-top: 80px;
+    margin-bottom:80px;
+}
+.contact-title{
+    font-size:50px;
+  text-align:center ;
+    color:rgb(0, 243, 0);
+    margin-bottom: 30px;
+    
+  
+}
+.contact-item{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap:350px;
+}
+.contact-way{
+    border: 1px solid rgb(51, 63, 231);
+    background:yellow;
+    width: 190px;
+    height:7px;
+ text-align: center;
+    padding:40px;
+   color:black;
+   font-size: 20px;
+   box-shadow: 2px 16px 40px rgba(255, 0, 0, 0.534);
+transition: width 6s ;
+}
+
+.contact-way:hover{
+    width: 300px;
+    height: 30px;
+    background-color:green;
+    transform: rotate(10deg);
 }
 
 /** footer style    
@@ -364,6 +411,21 @@ border-radius: 8px;
     flex-direction: column; 
     align-items: center;         
     }
+
+    .contact-item{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    .contact-way{transition:none}
+    .contact-way:hover{
+        width: 300px;
+        height: 30px;
+        background-color:green;
+        transform:none
+    }
+    
+    
 .footer{
     width: 360px;
 }
