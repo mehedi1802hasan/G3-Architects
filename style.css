@@ -7,7 +7,7 @@ body{
    
 }
 .container{
-    border:2px solid red;
+    
     width:1200px;
     margin: 0 auto;
 }
@@ -83,30 +83,117 @@ nav{
 
   
   /*feture style   ---------------*/
-  .feture{
+  .quick{
     display:flex;
     margin-top: 80px;
     margin-left:50px;
     gap:73px
   }
  
-.feture-image{
+.quick-image{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap:37px;
     grid-row-gap:34px;
 }
-.feture-text{
+.quick-text{
     width: 537px;
     height: 304px;
 margin-top:210px;
 }
-.future-title{
+.quick-title{
     font-weight: 500;
     font-size: 45px;
     margin-bottom: 24px;}
-.future-sub-title{
+.quick-sub-title{
         font-weight: 400;
         font-size: 16px;
         margin-bottom: 32px;
                  }
+/*  love style text & photo      
+  -------------------------
+------------------------------*/
+.love-section{
+    display: flex;
+    gap:51px;
+    margin-top: 130px;
+
+}
+hr{
+    width: 4.98px;
+height: 106px;
+background: #FF900E;
+}
+.hr-line{
+    display: flex;
+    gap:10px;
+}
+.love-text-part{
+    width: 500px;
+    height: 982px;
+    margin-top:30px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 20px;
+}
+.section-sub-title{
+font-weight: 400;
+font-size: 16px;
+margin-bottom:30px;}
+.experience{
+margin-top: 30px;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+row-gap: 20px;
+
+}
+.part{ 
+width: 500px;
+height: 171px;
+background: #e0cdcd;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+}
+.part-title{
+    font-weight: 600;
+font-size: 20px;
+margin-top: 30px;
+}
+.part-sub-title{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.love-picture-part{
+    display: flex;
+    flex-direction: column;
+}
+.love-picture-part img{
+width:650px;
+height:935px;
+}
+
+
+/* 10 yr button*/
+.year{
+    margin-left:-40px;
+    margin-top: -110px;
+}
+ .btn-yr{
+    width:250.2px;
+    height:150px;
+    background-color: orange;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    font-size:40px;
+   
+
+ }  
+/*-------------------
+-
+
+-----------------*/
