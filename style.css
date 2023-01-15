@@ -3,10 +3,10 @@
     border: 0;
     padding: 0;
 }
-body{
-   
+.header{
+    background: rgba(255, 144, 14, 0.1);
 }
-.container{
+.container-1,.container-2{
     
     width:1200px;
     margin: 0 auto;
@@ -34,22 +34,22 @@ nav{
   
     
 }
-.jamela{
+.nav-item{
     display: flex;
     gap: 30px;
    
 }
-.jamela li{
+.nav-item li{
     list-style: none;
    
 }
-.jamela a{
+.nav-item a{
     color: wheat;
     text-decoration:none;
     display: flex; 
    
     font-size: 18px;
-    color: #c92d2d;
+    color: #424242;
 }
 /*style brand  -----------
 ----------------*/
@@ -60,10 +60,15 @@ nav{
 }
 .section-title{
     font-weight: 700;
-    font-size: 64px;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 20px;
 }
 .section-sub-title{
-
+font-weight: 400;
+font-size: 16px;
+margin-bottom:30px;
+color: #727272;
 }
 .btn{
     text-align: center;
@@ -73,6 +78,7 @@ nav{
     width: 180px;
     height: 64px;
     background-color: orange;
+    border-radius: 8px;
     color: white;
     margin:0 aut0;
   }
@@ -133,16 +139,8 @@ background: #FF900E;
     height: 982px;
     margin-top:30px;
 }
-.section-title{
-    font-weight: 700;
-    font-size: 45px;
-    color: #131313;
-    margin-bottom: 20px;
-}
-.section-sub-title{
-font-weight: 400;
-font-size: 16px;
-margin-bottom:30px;}
+
+
 .experience{
 margin-top: 30px;
 display: grid;
@@ -168,6 +166,7 @@ margin-top: 30px;
     font-weight: 400;
     font-size: 16px;
     margin-top: 10px;
+    color: #727272;
 }
 .love-picture-part{
     display: flex;
@@ -201,9 +200,6 @@ height:935px;
  .some-fact{
     margin-top:100px;
  }
-.extra{
-    color: #727272;
-}
  /*-------------------
         reward style section -----------------*/
  .section-reward{
