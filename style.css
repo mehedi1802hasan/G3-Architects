@@ -30,10 +30,6 @@ nav{
     background-color:yellow;
   
 }
-.nav-b{
-  
-    
-}
 .nav-item{
     display: flex;
     gap: 30px;
@@ -107,11 +103,8 @@ color: #727272;
     height: 304px;
 margin-top:210px;
 }
-.quick-title{
-    font-weight: 500;
-    font-size: 45px;
-    margin-bottom: 24px;}
-.quick-sub-title{
+
+.extra{
         font-weight: 400;
         font-size: 16px;
         margin-bottom: 32px;
@@ -273,4 +266,108 @@ border-radius: 8px;
 .footer-item{
     text-align: center;
     padding:40px;
+}
+
+
+
+/* media quary  style----
+-----------------
+--------------*/
+
+
+@media only screen and (max-width:576px) {
+
+    .container-1,.container-2{
+        width:100%;
+        }  
+
+  nav,.nav-item{
+    
+    display: flex;
+    flex-direction: column;
+    row-gap:10px;
+    
+  }
+  .nav-a{
+    font-weight:400px;
+    font-size:30px;
+    
+    
+}
+.section-brand,.quick-text{
+    width:300px;
+   
+}
+.section-title,.quick-title{
+   
+    font-weight: 700;
+    font-size:30px;
+}
+.section-sub-title{
+       width: 200px;
+       margin-left:40px;
+        font-size:25px;}
+.btn-primary{    
+  height: 64px;
+   }
+ .banner{
+      max-width:400px;
+      }
+.quick{
+        display:flex;
+        flex-direction: column;}
+.quick-image{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+
+        }      
+.quick-image img{
+    max-width:200px;
+}
+.extra{
+    width:220px;
+    height: auto;
+}
+.love-section{
+    display: flex;
+    flex-direction: column;
+    margin-top:200px;
+}
+.part-sub-title{
+    width:300px;
+}
+
+.love-picture-part img{
+    width:300px;
+    }
+.year{
+    margin-left:10px;
+        margin-top: -90px;
+    }
+    .some-fact{
+        padding: 10px;
+     }
+  .extra{
+    width: 200px;
+  }
+  .section-reward{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+            }
+.reward-item{
+    width:190px;
+}
+.sponser-name{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;         
+    }
+.footer{
+    width: 360px;
+}
+.footer-item{
+    width:240px;
+}
 }
