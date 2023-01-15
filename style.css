@@ -151,12 +151,14 @@ row-gap: 20px;
 
 }
 .part{ 
-width: 500px;
-height: 171px;
-background: #e0cdcd;
+width:450px;
+height:130px;
+padding:20px;
+background: #FFFFFF;
 box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
 border-radius: 8px;
-}
+    }
+
 .part-title{
     font-weight: 600;
 font-size: 20px;
@@ -193,7 +195,86 @@ height:935px;
    
 
  }  
-/*-------------------
--
 
------------------*/
+ /*    ---some fact style--------
+ ----------*/
+ .some-fact{
+    margin-top:100px;
+ }
+.extra{
+    color: #727272;
+}
+ /*-------------------
+        reward style section -----------------*/
+ .section-reward{
+  display: flex;
+  justify-content: space-around;
+ margin-top:100px;
+
+ }
+.reward-item{
+ width: 200px;
+ height: 180px;
+ border: 1px solid #FF900E;
+ border-radius: 8px;
+text-align: center;
+     }
+
+.item{
+ margin-top:35px;
+ align-items: center;
+    }
+
+.item img{
+  width: 45.22px;
+ height: 45.22px;
+ margin-bottom: 1px;
+    }
+
+.number{
+ margin-top:1px;
+ margin-bottom: 1px;
+ font-size:30px;
+ color: #424242;
+    }
+
+.item-title{
+ margin-top:0px;
+font-size: 15px;
+ color: #727272;
+            }
+            
+ /**sponser style --
+            ------------------*/ 
+.sponser{
+margin-top:90px;
+}
+
+ .sponser-text{
+text-align: center;
+margin-bottom:50px;
+            }
+
+ .sponser-name{
+display: flex;
+gap:90px;
+
+            }
+.sponser-name img{
+    width: 153.33px;
+height: 50px;
+}
+
+/** footer style    
+----------------**/
+.footer{
+   margin-top:80px;
+   margin-bottom:80px;
+height: 100px;
+background: #FFF4E7;
+border-radius: 8px;
+}
+.footer-item{
+    text-align: center;
+    padding:40px;
+}
